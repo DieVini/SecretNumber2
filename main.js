@@ -17,7 +17,7 @@ function exibeTextoTag(tag,texto){
 }
 function inicializaTexto(){
     exibeTextoTag('h1','Secret Number');
-    exibeTextoTag('p','Type a number from 1 to 10, you have 10 attempts');
+    exibeTextoTag('p','Type a number from 1 to 100, you have 10 attempts');
 }
 function verificarChute(){
     let guess = document.querySelector('input').value;
