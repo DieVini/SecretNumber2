@@ -44,6 +44,13 @@ function verificarChute(){
     }
     limpaImput();
 }
+document.addEventListener('keydown', 
+    function(event){
+        if(event.key === 'Enter'){
+            verificarChute();
+        }
+    }
+)
 function desabilitarImput(){
     document.querySelector('input').disabled = true;
 }
