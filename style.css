@@ -99,6 +99,7 @@ h1 {
 p,
 button {
     font-family: 'Inter', sans-serif;
+    cursor: pointer;
 }
 
 .texto__paragrafo {
